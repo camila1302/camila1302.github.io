@@ -3,23 +3,25 @@
     <head>
         <title>Unidade 02 - Elemento Head</title>
         <meta charset="utf-8">
-        <style>
-            body {
-                background: #ccc;
-                font-family: arial,sans-serif;
-                color:#fff
-            }
-            
-        </style>
+        
+        <meta name="author" content="Camila">
+        <meta name="generator" content="brackets">
+        <meta name="keywords" content="HMTL5, Curso HTML,Curso font end">
+        <meta name="description" content="página">
+        <meta name="application-name" content="imedia brasil">
+        
+        <meta http-equiv="refresh" content="1">
+        
         <script>
-        function inicial(){
-            nome.innerHTML = "curso HTML5 essencial";
-        }
-            window.onload = inicial;
+            function sorteioNumero(){
+                sorteio.innerHTML = Math.round(Math.random() *50);
+            }
+            window.onload = sorteioNumero;
         </script>
-    </head>
+              
+  </head>
     <body>
-        <p id="nome"></p>
+        <p id="sorteio"></p>
     </body>
                 
 </html>
